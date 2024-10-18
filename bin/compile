@@ -93,4 +93,6 @@ step "Showing keycloak server config"
 step "Cleaning up tmp files"
 rm -rf "${TMP_PATH}"
 
+cp -r $BUILD_DIR/themes/pass-emploi /app/keycloak/themes
+
 finished
